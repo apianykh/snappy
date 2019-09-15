@@ -1,0 +1,49 @@
+{
+  "name": "snappy-react-exercize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --watch",
+    "build": "NODE_ENV=production webpack",
+    "server": "node server",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "core-js": "^3.2.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0",
+    "mongodb": "^3.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
