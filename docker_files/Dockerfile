@@ -12,8 +12,9 @@ COPY ./docker_files/vhost.conf /etc/nginx/conf.d/default.conf
 
 RUN mkdir -p /home/node/app
 COPY package.json yarn.lock /home/node/app/
-RUN cd /home/node/app && yarn && yarn build
+RUN cd /home/node/app && yarn
 COPY . /home/node/app/
+RUN cd /home/node/app && yarn build
 
 EXPOSE 80
 WORKDIR /home/node/app

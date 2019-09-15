@@ -90,3 +90,6 @@ typings/
 
 # Docker
 docker_files/volumes/mongo
+
+# Bundle
+public/js/
