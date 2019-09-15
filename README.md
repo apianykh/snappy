@@ -1,6 +1,6 @@
 # Snappy React Exercise
 
-Developed with love and under a guide of [Snappy Developers Exercise](https://github.com/ArrDez/snappy/docs/Snappy_Developers_Exercise.pdf)
+Developed with love and under a guide of [Snappy Developers Exercise](https://github.com/ArrDez/snappy/blob/master/docs/Snappy_Developers_Exercise.pdf)
 
 ## Quick Start
 
