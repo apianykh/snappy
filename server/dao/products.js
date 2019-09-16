@@ -5,7 +5,7 @@ exports.get = async ({name = null, vendor = null}) => {
   const db = client.db(process.env.DB_NAME);
   try {
     let query = {};
-    if(name) query.name = {'$regex': name};
+    if(name) query.name = {'$regex': name, $options: 'i'};
     if(vendor) query.vendor = vendor;
     return await db.collection('products').find(query).toArray();
   }
